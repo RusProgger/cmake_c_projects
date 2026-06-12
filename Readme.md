@@ -1,3 +1,5 @@
+🇬🇧 English
+
 # CMake C Project Template
 
 This is a modern and reusable CMake template for C projects. It is designed to provide a clean and scalable starting point for developing C applications.

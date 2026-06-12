@@ -4,6 +4,7 @@ project(new_projects LANGUAGES C)
 
 add_executable(new_projects
     src/main.c
+    src/header.c
 )
 
 target_compile_features(new_projects PRIVATE c_std_11)

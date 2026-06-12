@@ -26,3 +26,18 @@ project/
 
 ```
 
+## Build Instructions
+
+```bash
+cmake -S . -B build
+cmake --build build
+
+```
+
+## Changing C Standard
+
+By default, the project uses C11:
+
+```
+target_compile_features(target PRIVATE c_std_11)
+```

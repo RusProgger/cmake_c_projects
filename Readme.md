@@ -57,5 +57,6 @@ target_compile_features(target PRIVATE c_std_17)
 ```
 
 ## Notes
-This template is intended for learning and real-world C projects.
-You can freely extend it with libraries, modules, and tests.
+
+- This template is intended for learning and real-world C projects.
+- You can freely extend it with libraries, modules, and tests.

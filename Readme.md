@@ -16,7 +16,7 @@ This is a modern and reusable CMake template for C projects. It is designed to p
 
 ## Project Structure
 
-``` 
+```bash
 project/
 │
 ├── src/ # Source files (.c)
@@ -38,6 +38,13 @@ cmake --build build
 
 By default, the project uses C11:
 
-```
+```bash
 target_compile_features(target PRIVATE c_std_11)
 ```
+
+You can change it to:
+
+- C99 → c_std_99
+- C11 → c_std_11
+- C17 → c_std_17
+

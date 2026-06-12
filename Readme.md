@@ -4,7 +4,7 @@
 
 This is a modern and reusable CMake template for C projects. It is designed to provide a clean and scalable starting point for developing C applications.
 
-## Features:
+## Features
 
 - Modern CMake structure
 - C language support (C11 by default)
@@ -16,7 +16,7 @@ This is a modern and reusable CMake template for C projects. It is designed to p
 - Clean project layout (src / include)
 - Out-of-source build support (build directory separated from source)
 
-## Project Structure:
+## Project Structure
 
 ```bash
 project/
@@ -28,7 +28,7 @@ project/
 
 ```
 
-## Build Instructions:
+## Build Instructions
 
 ```bash
 cmake -S . -B build
@@ -36,7 +36,7 @@ cmake --build build
 
 ```
 
-## Changing C Standard:
+## Changing C Standard
 
 By default, the project uses C11:
 
@@ -44,13 +44,13 @@ By default, the project uses C11:
 target_compile_features(target PRIVATE c_std_11)
 ```
 
-## You can change it to:
+## You can change it to
 
 - C99 → c_std_99
 - C11 → c_std_11
 - C17 → c_std_17
 
-## Example:
+## Example
 
 ```bash
 target_compile_features(target PRIVATE c_std_17)

@@ -42,7 +42,7 @@ By default, the project uses C11:
 target_compile_features(target PRIVATE c_std_11)
 ```
 
-You can change it to:
+## You can change it to:
 
 - C99 → c_std_99
 - C11 → c_std_11
